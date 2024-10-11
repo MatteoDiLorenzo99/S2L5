@@ -1,0 +1,249 @@
+/* Your styles here */
+
+/*INIZIO SEZIONE LOGO HEADER*/
+.SectionLogo{
+    background-color: #222F3F;
+
+}
+
+.LogoImage{
+    width:8.5%;
+    padding-left: 1.9em;
+    padding-top: 0.3em;
+    padding-bottom: 0.5em;
+}
+/*FINE */
+
+/*INIZIO SEZIONE NAVBAR*/
+
+.NavBar{
+background-color: #364759;
+}
+
+.NavBar ul{
+    margin-left: 10px;
+}
+
+
+.NavBar ul li{
+     display: inline-block;
+     color: white;
+     padding-top: 0.5em;
+     padding-bottom: 0.5em;
+     margin-left: 1em;
+     font-family: arial, Helvetica, sans-serif;
+     font-size: 14px;
+}
+
+.NavBar ul li a{
+    text-decoration: none;
+    color: white;
+}
+/*FINE*/
+
+/*INIZIO BODY*/
+
+body{
+    background-color: #E9EDEE;
+}
+
+.ClassMain{
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+
+}
+/*SEZIONE H3*/
+h3{
+    background-color: #f56600;
+    text-align: center;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    color: white;
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+/**/
+
+/*INIZIO SEZIONE TITLE E SFONDO*/
+.SectionTitle{
+    margin-top: 2em;
+    background-image: url("./../images/bg-image.png");
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    
+   
+}
+
+h1{
+    padding-top: 2.2em;
+    font-size: 33px;
+    
+}
+
+.PTitle{
+    padding-top: 1.5em;
+    padding-bottom: 2.1em;
+    font-size: 20px;;
+}
+/**/
+
+/*INIZIO SEZIONE FOTO INLINE*/
+.SectionPhotoInline {
+    margin-top: 1.5em;
+    padding-bottom: 1.8em;
+    background-color: white;
+   
+}
+
+.DivPhotoInline {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0.6em;
+    padding-left: 1em;
+    color: black;
+    display: flex;
+    justify-content: flex-start; /* Gli elementi iniziano da sinistra */
+    align-items: center; /* Allinea verticalmente gli elementi al centro */
+    gap: 15px; /* Distanza tra il titolo e il link */
+
+}
+
+.DivPhotoInline h2 {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin: 0;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.DivPhotoInline a {
+    text-decoration: none; /* Rimuove la sottolineatura dal link */
+    color: #007185; /* Imposta il colore del link in blu */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*INIZIO GRIGLIA DEI PRODOTTI*/
+
+/* Contenitore dei prodotti */
+.GridProducts {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Spazio tra le immagini dei prodotti */
+    padding-top: 1em;
+    padding-left: 20px; /* Spaziatura sul lato sinistro */
+    padding-right: 20px; /* Spaziatura sul lato destro */
+}
+
+/* Singoli prodotti */
+.Product {
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4); /* Ombra sul contenitore */
+    width: 23%; /* Ogni prodotto occupa il 23% dello spazio disponibile */
+    height: 400px; /* Altezza maggiore per renderle rettangolari */
+}
+
+/* Immagini dei prodotti */
+.Product img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Adatta l'immagine al contenitore senza deformarla */
+    display: block;
+    border-radius: 8px;
+   }
+/*FINE GRIGLIA PRODOTTI*/
+
+/*INIZIO SEZIONE IMMAGINE GRANDE*/
+.SectionBigImage{
+    padding-top: 1.6em;
+    width: 100%;
+    height: 400px;
+    }
+
+.SectionBigImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.TextUnderBigImage{
+    padding-top: 0.2em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.TextUnderBigImage a{
+    margin-left: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    color: #007185;
+}
+
+/*INIZO SEZIONE IMMAGINE GRANDE NUMERO 2*/
+.SectionBigImage2{
+    padding-top: 2.5em;
+    width: 100%;
+    height: 400px;
+    }
+
+.SectionBigImage2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.TextUnderBigImage2{
+    margin-bottom: 10px;
+    padding-top: 0.2em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.TextUnderBigImage2 a{
+    margin-left: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    color: #007185;
+}
+
+/*INIZIO FOOTER*/
+
+/*INIZIO BACK TO TOP*/
+.ClassBackToTop{
+    margin-top: 3em;
+    background-color: #364759;
+    text-align: center;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
+
+.ClassBackToTop a{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+
+}
+
+.LogoFinal{
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    background-color: #222F3F;
+    
+}
+
+.LogoFinal img{
+    width:8%;
+}
